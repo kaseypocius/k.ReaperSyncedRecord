@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 419.0, 176.0, 22.0 ],
+					"patching_rect" : [ 73.0, 85.0, 176.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 39.0, 38.0, 128.0, 22.0 ],
 					"text" : "Reaper Transport",
@@ -63,7 +63,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.07763060000002, 477.0, 30.0, 30.0 ]
+					"patching_rect" : [ 15.0, 18.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 132.0, 419.0, 24.0, 24.0 ],
+					"patching_rect" : [ 47.0, 85.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 31.0, 36.0, 36.0 ]
 				}
@@ -88,7 +88,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 103.07763060000002, 350.0, 68.0, 22.0 ],
+					"patching_rect" : [ 47.0, 56.0, 68.0, 22.0 ],
 					"text" : "route /play"
 				}
 
@@ -100,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.07763060000002, 312.0, 97.0, 22.0 ],
+					"patching_rect" : [ 47.0, 18.0, 97.0, 22.0 ],
 					"text" : "udpreceive 7400"
 				}
 
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 128.5, 556.0, 119.0, 23.0 ],
+					"patching_rect" : [ 169.0, 70.0, 119.0, 23.0 ],
 					"text" : "prepend samptype"
 				}
 
@@ -132,7 +132,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 128.5, 530.0, 80.0, 24.0 ],
+					"patching_rect" : [ 169.0, 44.0, 80.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.0, 4.813964426517487, 80.0, 24.0 ],
 					"textjustification" : 1
@@ -149,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.5, 477.0, 84.0, 24.0 ],
+					"patching_rect" : [ 146.0, 18.0, 84.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 4.813964426517487, 84.0, 24.0 ],
 					"text" : "open wave",
@@ -164,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 132.0, 612.0, 95.0, 22.0 ],
+					"patching_rect" : [ 15.0, 142.0, 95.0, 22.0 ],
 					"text" : "mc.sfrecord~ #1"
 				}
 
@@ -187,7 +187,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 168.5, 553.0, 138.0, 553.0 ],
+					"midpoints" : [ 209.0, 67.0, 178.5, 67.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
