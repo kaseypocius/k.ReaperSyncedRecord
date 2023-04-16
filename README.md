@@ -1,0 +1,1 @@
+Abstraction with a mc.sfrecord~, which receives OSC from Reaper on port 7400 to start/stop recording in sync with the reaper transport. Takes one argument, which is the number of channels of the sound file created. 
